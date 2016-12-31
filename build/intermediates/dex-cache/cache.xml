@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b2817949f352aa01995e84a9a6e1607d26952a2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e085d94ca5fbbf841b7fce29ab5c695bee0e18a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_f7445edb93730d93a74d6e60c8e82083924a1a87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_88927861064753f0197546293379bfd15baaf854/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="17ff20b71ec2d69632ac957cfef13a2273635f4e">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e4897205820753a956945cc662550d7467a425e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/io.moj.java/mojio-sdk-rest/0.0.125/41d848def4d62eae91299ed7d217f8e62c2ebec5/mojio-sdk-rest-0.0.125.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="41d848def4d62eae91299ed7d217f8e62c2ebec5">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/mojio-sdk-rest-0.0.125_d58118f0e536f8e2b621a00b8fa5d4ecfc590a81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_0ba7b4e8b69f691edaba11d07abd8662bf2bbea2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_f16083fc78e32d55c546f5a8a5349a3ce636abf0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_79091222c472e7f045274520de59c1b9773f955d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_25855c59301ea0ff3d5050987e9a1b799b1f1a63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_8125e6fbd25be1b1e412dd331870f46a5066c8ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_6e5396b6e1fe6ac0991819ada0d01e27264c2829/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2ebff1338c652210dad030335d3544f65b5e4d3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_6e91249527105b87fa7a8b7c2d17db64d02fdfd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2693a5463f08b8253abd2efb28f008c5920e8210">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_54bb8497935bea6bc86e179f0415f4a73ae43fad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_2d03e68f75eb265c3a6870f1492c9a01b4ae0482/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_353969c921948a287fe4a99e80c924b993f4fc7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_d7c7fc2afbce99d5511959d1d941dbe044ebe736/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e62662eaae0fe7fda4dd119e7c984e91bed92f28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_d48961db271b44139189ebe1bc97ac28e587ce4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_cc8b830a80ce605481f01ed01c0e16d85049ed39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3ac97ee01a7d3d971b26b21f3849b6fa7cb92d07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_01858e147f0ee65eb8955f2d234ecbaaf983df38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_d03823f54e53a649a4612a2f15a336bc8be3fd27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/.gradle/caches/modules-2/files-2.1/io.moj.java/mojio-sdk-model/0.0.125/b71cfa436ecb70629cb2d01d917241b62e2f6802/mojio-sdk-model-0.0.125.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b71cfa436ecb70629cb2d01d917241b62e2f6802">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/mojio-sdk-model-0.0.125_ef5474f188a8fe36856fc9840b2cd2a77c1bdda8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mojio/Projects/Stationary/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Mojio/Projects/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_9c6b9dbc9914340dea30aff449c79f49df6dfc09/classes.dex" />
+    </item>
+
+</items>
