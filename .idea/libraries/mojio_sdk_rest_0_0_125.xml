@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mojio-sdk-rest-0.0.125">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.moj.java/mojio-sdk-rest/0.0.125/41d848def4d62eae91299ed7d217f8e62c2ebec5/mojio-sdk-rest-0.0.125.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.moj.java/mojio-sdk-rest/0.0.125/15a816b6224c1b4b71bd1c6d813fb51d52c05ff8/mojio-sdk-rest-0.0.125-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

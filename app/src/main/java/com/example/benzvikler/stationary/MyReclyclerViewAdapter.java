@@ -36,7 +36,9 @@ public class MyReclyclerViewAdapter extends RecyclerView.Adapter<MyReclyclerView
         TripListItem tripListItem= tripListItems.get(i);
 
         //Setting text view title
-        customViewHolder.textView.setText(tripListItem.getTitle());
+        customViewHolder.textView.setText(tripListItem.getDate());
+        customViewHolder.startLocationTextView.setText(tripListItem.getStartAddress());
+        customViewHolder.endLocationTextView.setText(tripListItem.getEndAddress());
     }
 
     @Override
@@ -46,10 +48,15 @@ public class MyReclyclerViewAdapter extends RecyclerView.Adapter<MyReclyclerView
 
     class CustomViewHolder extends RecyclerView.ViewHolder {
         protected TextView textView;
+        protected TextView startLocationTextView;
+        protected TextView endLocationTextView;
+
 
         public CustomViewHolder(View view) {
             super(view);
             this.textView = (TextView) view.findViewById(R.id.title);
+            this.startLocationTextView = (TextView) view.findViewById(R.id.startAddress);
+            this.endLocationTextView = (TextView) view.findViewById(R.id.endAddress);
         }
 
     }

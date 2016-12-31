@@ -50,7 +50,9 @@ public class TripListActivity extends AppCompatActivity {
     public void handleDisplayTrips(List<Trip> trips) {
         for (int i = 0; i < trips.size(); i++) {
             TripListItem tripListItem = new TripListItem();
-            tripListItem.setTitle(trips.get(i).getStartTimestamp().toString());
+            tripListItem.setDate(trips.get(i).getEndTimestamp());
+            tripListItem.setStartAddress(trips.get(i).getStartLocation().getAddress().getCity());
+            tripListItem.setEndAddress(trips.get(i).getEndLocation().getAddress().getCity());
             tripListItems.add(tripListItem);
         }
         progressBar.setVisibility(View.GONE);
