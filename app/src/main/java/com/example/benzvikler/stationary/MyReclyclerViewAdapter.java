@@ -18,10 +18,19 @@ import java.util.List;
 public class MyReclyclerViewAdapter extends RecyclerView.Adapter<MyReclyclerViewAdapter.CustomViewHolder>{
     private List<TripListItem> tripListItems;
     private Context mContext;
+    private OnItemClickListener onItemClickListener;
 
     public MyReclyclerViewAdapter(Context context, List<TripListItem> tripListItems) {
         this.mContext = context;
         this.tripListItems = tripListItems;
+    }
+
+    public OnItemClickListener getOnItemClickListener() {
+        return onItemClickListener;
+    }
+
+    public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
+        this.onItemClickListener = onItemClickListener;
     }
 
     @Override
@@ -33,12 +42,21 @@ public class MyReclyclerViewAdapter extends RecyclerView.Adapter<MyReclyclerView
 
     @Override
     public void onBindViewHolder(CustomViewHolder customViewHolder, int i) {
-        TripListItem tripListItem= tripListItems.get(i);
+        final TripListItem tripListItem= tripListItems.get(i);
 
         //Setting text view title
         customViewHolder.textView.setText(tripListItem.getDate());
         customViewHolder.startLocationTextView.setText(tripListItem.getStartAddress());
         customViewHolder.endLocationTextView.setText(tripListItem.getEndAddress());
+
+        // Setting onClick Listener to appropriate views
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               onItemClickListener.onItemClick(tripListItem);
+            }
+        };
+        customViewHolder.view.setOnClickListener(listener);
     }
 
     @Override
@@ -50,10 +68,12 @@ public class MyReclyclerViewAdapter extends RecyclerView.Adapter<MyReclyclerView
         protected TextView textView;
         protected TextView startLocationTextView;
         protected TextView endLocationTextView;
+        protected View view;
 
 
         public CustomViewHolder(View view) {
             super(view);
+            this.view = view;
             this.textView = (TextView) view.findViewById(R.id.title);
             this.startLocationTextView = (TextView) view.findViewById(R.id.startAddress);
             this.endLocationTextView = (TextView) view.findViewById(R.id.endAddress);

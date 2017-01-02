@@ -1,11 +1,13 @@
 package com.example.benzvikler.stationary;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.example.benzvikler.stationary.callbacks.LoginCallback;
 import com.example.benzvikler.stationary.callbacks.TripsListCallback;
@@ -17,6 +19,8 @@ import java.util.List;
 import io.moj.java.sdk.MojioClient;
 import io.moj.java.sdk.model.Trip;
 import io.moj.java.sdk.model.response.ListResponse;
+
+import static android.R.attr.value;
 
 
 public class TripListActivity extends AppCompatActivity {
@@ -58,5 +62,13 @@ public class TripListActivity extends AppCompatActivity {
         progressBar.setVisibility(View.GONE);
         adapter = new MyReclyclerViewAdapter(TripListActivity.this, tripListItems);
         mRecyclerView.setAdapter(adapter);
+        adapter.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(TripListItem item) {
+                Intent myIntent = new Intent(TripListActivity.this, TripExpandedActivity.class);
+                myIntent.putExtra("key", value); //Optional parameters
+                TripListActivity.this.startActivity(myIntent);
+            }
+        });
     }
 }
