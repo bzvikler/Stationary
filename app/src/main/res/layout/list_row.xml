@@ -2,6 +2,7 @@
 <android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginBottom="5dp"
@@ -22,11 +23,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center_horizontal">
+                android:gravity="center">
 
                 <TextView
                     android:id="@+id/startAddress"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_weight = "0"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
                     android:maxLines="3"
@@ -35,28 +37,29 @@
                     android:textColor="#444"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    android:layout_weight="1" />
+                    android:gravity="center" />
 
                 <ImageView
-                    android:id="@+id/travelImage"
-                    android:layout_width="150dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/placeholder"
-                    />
+                    android:layout_height="5dp"
+                    android:src="@drawable/dotted"
+                    android:layerType="software"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1" />
 
                 <TextView
                     android:id="@+id/endAddress"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_weight = "0"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
                     android:maxLines="3"
                     android:padding="8dp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                     android:textColor="#444"
                     android:textSize="16dp"
                     android:textStyle="bold"
-                    android:layout_weight="1" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <TextView

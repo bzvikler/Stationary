@@ -394,7 +394,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="3f5e9de154b0d138820f1f3693b4f6460647a2ec">
+        sha1="b3ec70ecd50523811bf17fbaf6e9244635ff442f">
         <dex dex="/Users/Mojio/Stationary/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_22b20b9450366c96cc268f64ea68eaad47472ff6/classes.dex" />
     </item>
 

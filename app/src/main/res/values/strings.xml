@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Stationary</string>
+    <string name="home">Home</string>
+    <string name="expanded_trip">Trip Details</string>
 </resources>
